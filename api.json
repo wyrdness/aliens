@@ -1,0 +1,416 @@
+{
+  "category": "UFO_UAP",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2025-12-15",
+    "repository": "https://github.com/wyrdness/aliens",
+    "maintainers": [{"name": "Wyrdness Team", "github": "wyrdness", "role": "maintainer"}],
+    "license": {"data": "CC0-1.0", "content": "CC-BY-4.0"}
+  },
+  "phenomenon": {
+    "id": "aliens",
+    "name": "UFOs/UAPs & Alien Encounters",
+    "aliases": [
+      {"name": "UFO", "language": "English", "meaning": "Unidentified Flying Object"},
+      {"name": "UAP", "language": "English", "meaning": "Unidentified Aerial/Anomalous Phenomenon (modern official term)"},
+      {"name": "Flying Saucer", "language": "English", "meaning": "Popular term from 1947 onwards"},
+      {"name": "Extraterrestrials", "language": "English", "meaning": "Beings from outside Earth"},
+      {"name": "ETs", "language": "English", "meaning": "Abbreviation for extraterrestrials"},
+      {"name": "Greys", "language": "English", "meaning": "Most commonly reported alien type"},
+      {"name": "NHI", "language": "English", "meaning": "Non-Human Intelligence (recent official terminology)"}
+    ],
+    "category": "UFO_UAP",
+    "subcategory": "Aerial Phenomena / Extraterrestrial Contact",
+    "tags": ["ufo", "uap", "aliens", "extraterrestrial", "flying-saucer", "abduction", "close-encounter", "government", "disclosure", "roswell", "area-51"],
+    "status": "active",
+    "description": {
+      "summary": "Unidentified aerial phenomena (UAPs/UFOs) and alleged encounters with non-human intelligences. Includes sightings of unexplained craft and reported contact with extraterrestrial or interdimensional beings.",
+      "full": "The UFO/UAP phenomenon encompasses sightings of unidentified aerial objects and alleged encounters with non-human intelligences that have been reported throughout human history but gained prominence in the modern era beginning with the 1947 Kenneth Arnold sighting. The phenomenon includes simple sightings (Close Encounters of the First Kind), physical evidence cases (Second Kind), contact with occupants (Third Kind), abductions (Fourth Kind), and communication (Fifth Kind). In 2020, the US government officially acknowledged UAPs as a national security concern, releasing footage and establishing investigative offices. The phenomenon remains one of the most documented yet unexplained aspects of human experience, with thousands of credible witnesses including military personnel, pilots, and astronauts."
+    },
+    "etymology": {
+      "origin": "UFO coined by US Air Force Captain Edward J. Ruppelt in 1952; UAP adopted by US government circa 2020",
+      "meaning": "UFO: Unidentified Flying Object; UAP: Unidentified Aerial/Anomalous Phenomenon",
+      "first_use": "UFO: 1952; 'Flying Saucer': 1947"
+    }
+  },
+  "classification": {
+    "taxonomy": {
+      "category": "UFO_UAP",
+      "type": "Aerial Phenomenon / Contact Event",
+      "subtype": "Various (sightings, encounters, abductions)",
+      "variant": "Multiple craft types and entity descriptions"
+    },
+    "related_phenomena": [
+      {"id": "men-in-black", "name": "Men in Black", "relationship": "associated", "description": "Mysterious figures who reportedly intimidate UFO witnesses"},
+      {"id": "crop-circles", "name": "Crop Circles", "relationship": "related", "description": "Sometimes attributed to UFO activity"},
+      {"id": "cattle-mutilations", "name": "Cattle Mutilations", "relationship": "related", "description": "Unexplained livestock deaths sometimes linked to UFOs"}
+    ],
+    "hynek_scale": {
+      "description": "J. Allen Hynek's Close Encounter Classification System",
+      "categories": [
+        {"type": "CE1", "name": "Close Encounter of the First Kind", "description": "Visual sighting of UAP within 500 feet"},
+        {"type": "CE2", "name": "Close Encounter of the Second Kind", "description": "UAP leaves physical evidence (landing traces, radiation, vehicle interference)"},
+        {"type": "CE3", "name": "Close Encounter of the Third Kind", "description": "Observation of occupants/entities associated with UAP"},
+        {"type": "CE4", "name": "Close Encounter of the Fourth Kind", "description": "Abduction by UAP occupants (added by researchers)"},
+        {"type": "CE5", "name": "Close Encounter of the Fifth Kind", "description": "Direct communication with UAP intelligence (added by Steven Greer)"}
+      ]
+    }
+  },
+  "characteristics": {
+    "craft_types": [
+      {
+        "type": "Disc/Saucer",
+        "description": "Classic flying saucer shape; circular or oval disc",
+        "frequency": "Very common",
+        "notable_cases": ["Kenneth Arnold (1947)", "McMinnville photos (1950)"]
+      },
+      {
+        "type": "Tic-Tac/Capsule",
+        "description": "Elongated white capsule shape; no visible propulsion",
+        "frequency": "Common",
+        "notable_cases": ["USS Nimitz (2004)", "USS Roosevelt (2015)"]
+      },
+      {
+        "type": "Triangle/Boomerang",
+        "description": "Dark triangular craft with lights at corners",
+        "frequency": "Common",
+        "notable_cases": ["Phoenix Lights (1997)", "Belgian Wave (1989-1990)"]
+      },
+      {
+        "type": "Sphere/Orb",
+        "description": "Spherical objects, often luminous",
+        "frequency": "Common",
+        "notable_cases": ["Foo Fighters (WWII)", "Various military encounters"]
+      },
+      {
+        "type": "Cigar/Cylinder",
+        "description": "Elongated cylindrical craft",
+        "frequency": "Occasional",
+        "notable_cases": ["Various historical reports"]
+      }
+    ],
+    "entity_types": [
+      {
+        "type": "Greys",
+        "description": "Small humanoids with gray skin, large heads, and large black eyes",
+        "height": {"min": 0.9, "max": 1.5, "unit": "meters"},
+        "features": ["Gray skin", "Large cranium", "Large almond-shaped black eyes", "Small nose/mouth", "Thin body"],
+        "frequency": "Most common type reported in Western encounters",
+        "notable_cases": ["Betty and Barney Hill (1961)", "Whitley Strieber accounts"]
+      },
+      {
+        "type": "Nordics",
+        "description": "Tall human-like beings with blonde hair and blue eyes",
+        "height": {"min": 1.8, "max": 2.1, "unit": "meters"},
+        "features": ["Human appearance", "Blonde hair", "Blue eyes", "Often described as benevolent"],
+        "frequency": "Common in contactee reports",
+        "notable_cases": ["George Adamski claims", "Billy Meier claims"]
+      },
+      {
+        "type": "Reptilians",
+        "description": "Tall humanoid beings with reptilian features",
+        "height": {"min": 1.8, "max": 2.4, "unit": "meters"},
+        "features": ["Scaled skin", "Vertical pupils", "Humanoid form", "Often described as hostile"],
+        "frequency": "Occasional",
+        "notable_cases": ["Various abduction accounts"]
+      },
+      {
+        "type": "Mantis/Insectoid",
+        "description": "Beings resembling praying mantises",
+        "height": {"min": 1.8, "max": 2.7, "unit": "meters"},
+        "features": ["Insect-like appearance", "Large eyes", "Long limbs", "Often reported overseeing procedures"],
+        "frequency": "Occasional in abduction reports",
+        "notable_cases": ["Various abduction accounts"]
+      }
+    ],
+    "abilities": [
+      {"ability": "Instantaneous acceleration", "description": "Craft accelerate to extreme speeds instantly without apparent inertia", "frequency": "always", "evidence_level": "multiple radar/visual confirmations"},
+      {"ability": "Trans-medium travel", "description": "Craft move seamlessly between air, water, and space", "frequency": "common", "evidence_level": "military radar/sonar"},
+      {"ability": "Hypersonic speed", "description": "Craft achieve speeds far exceeding any known technology", "frequency": "always", "evidence_level": "radar confirmation"},
+      {"ability": "Anti-gravity propulsion", "description": "Craft hover and maneuver without visible propulsion", "frequency": "always", "evidence_level": "observed"},
+      {"ability": "Cloaking/Visibility control", "description": "Craft can appear/disappear or change visibility", "frequency": "common", "evidence_level": "reported"},
+      {"ability": "Electromagnetic interference", "description": "Proximity causes vehicle/electronic failures", "frequency": "common", "evidence_level": "documented"},
+      {"ability": "Telepathic communication", "description": "Entities communicate mentally with contactees", "frequency": "common in contact cases", "evidence_level": "reported"}
+    ],
+    "behavior": {
+      "activity_period": "variable (day and night)",
+      "disposition": "variable (neutral to interactive)",
+      "social_structure": "unknown",
+      "habitat_preference": ["military installations", "nuclear facilities", "remote areas", "water bodies", "airspace"],
+      "patterns": ["Interest in military/nuclear sites", "Observation behavior", "Pursuit of aircraft", "Temporary paralysis of witnesses", "Missing time in close encounters"]
+    }
+  },
+  "distribution": {
+    "range": {
+      "description": "Worldwide phenomenon with particularly high concentrations in United States, UK, France, Belgium, Brazil, and Australia.",
+      "continents": ["North America", "South America", "Europe", "Asia", "Africa", "Australia", "Antarctica"],
+      "countries": ["United States", "United Kingdom", "France", "Belgium", "Brazil", "Mexico", "Chile", "Australia", "Canada", "Japan", "Russia", "China", "All countries"],
+      "regions": ["Worldwide distribution"]
+    },
+    "hotspots": [
+      {
+        "name": "Area 51 / Nevada Test Range",
+        "location": {"description": "Classified US Air Force facility", "country": "United States", "region": "Nevada", "coordinates": {"latitude": 37.2350, "longitude": -115.8111}},
+        "sighting_count": 1000,
+        "peak_period": "1950s-present",
+        "notes": "Center of UFO conspiracy theories; acknowledged by CIA in 2013"
+      },
+      {
+        "name": "Skinwalker Ranch",
+        "location": {"description": "Utah ranch with high paranormal activity", "country": "United States", "region": "Utah", "coordinates": {"latitude": 40.2589, "longitude": -109.8878}},
+        "sighting_count": 500,
+        "peak_period": "1990s-present",
+        "notes": "Multiple phenomenon types reported; scientifically studied"
+      },
+      {
+        "name": "Hessdalen Valley",
+        "location": {"description": "Valley in Norway with recurring light phenomena", "country": "Norway", "region": "Trondelag"},
+        "sighting_count": 200,
+        "peak_period": "1981-present",
+        "notes": "Scientifically documented unexplained lights"
+      },
+      {
+        "name": "Gulf Breeze",
+        "location": {"description": "Coastal Florida town", "country": "United States", "region": "Florida"},
+        "sighting_count": 300,
+        "peak_period": "1987-1992",
+        "notes": "Multiple witness wave; controversial photo evidence"
+      }
+    ],
+    "temporal": {
+      "first_recorded": {"date": "Ancient times", "circa": true, "source": "Historical records worldwide"},
+      "peak_activity_periods": [
+        {"period": "1947", "description": "Kenneth Arnold sighting; Roswell incident; beginning of modern UFO era"},
+        {"period": "1952", "description": "Washington DC UFO wave; multiple radar/visual confirmations"},
+        {"period": "1965-1967", "description": "Major global wave including Exeter and Malmstrom AFB"},
+        {"period": "1973", "description": "Massive US wave with hundreds of reports"},
+        {"period": "1989-1990", "description": "Belgian UFO wave; military investigation"},
+        {"period": "2004-2015", "description": "US Navy encounters (Tic-Tac incidents)"},
+        {"period": "2017-present", "description": "Government disclosure era; congressional hearings"}
+      ],
+      "seasonal_patterns": "No clear seasonal pattern; waves tend to be geographic rather than seasonal"
+    }
+  },
+  "history": {
+    "origins": {
+      "cultural_roots": "UFO-like phenomena reported throughout history including biblical accounts, medieval woodcuts, and indigenous traditions worldwide.",
+      "earliest_accounts": "Ancient texts describe celestial phenomena. Notable historical cases include 1561 Nuremberg celestial event, 1566 Basel event, and 1897 'airship' wave.",
+      "folklore_connections": "Parallels drawn to fairy abductions, incubi/succubi, and religious visions across cultures."
+    },
+    "timeline": [
+      {"date": "1561-04-14", "event": "Nuremberg celestial phenomenon", "significance": "Mass sighting of aerial objects over Nuremberg, Germany; documented in woodcut"},
+      {"date": "1897", "event": "Great Airship Wave", "significance": "Thousands report mysterious airships across United States"},
+      {"date": "1942-02-25", "event": "Battle of Los Angeles", "significance": "US military fires on unidentified objects over LA"},
+      {"date": "1947-06-24", "event": "Kenneth Arnold sighting", "significance": "Pilot reports 9 objects near Mt. Rainier; term 'flying saucer' coined"},
+      {"date": "1947-07", "event": "Roswell Incident", "significance": "Alleged crash and recovery; becomes iconic case"},
+      {"date": "1952-07", "event": "Washington DC flap", "significance": "Multiple radar/visual sightings over US capital"},
+      {"date": "1961-09-19", "event": "Betty and Barney Hill abduction", "significance": "First widely publicized abduction case"},
+      {"date": "1967-03-16", "event": "Malmstrom AFB incident", "significance": "UFO allegedly disables nuclear missiles"},
+      {"date": "1975", "event": "Travis Walton abduction", "significance": "Forestry worker missing 5 days; multiple witnesses"},
+      {"date": "1980-12-26", "event": "Rendlesham Forest incident", "significance": "Multiple US Air Force personnel encounter landed craft in UK"},
+      {"date": "1989-1990", "event": "Belgian UFO wave", "significance": "Mass sightings; military jets scrambled; radar confirmation"},
+      {"date": "1997-03-13", "event": "Phoenix Lights", "significance": "Mass sighting of large craft; thousands of witnesses including governor"},
+      {"date": "2004-11-14", "event": "USS Nimitz Tic-Tac encounter", "significance": "Navy pilots encounter and record anomalous craft"},
+      {"date": "2017-12-16", "event": "NY Times AATIP story", "significance": "Secret Pentagon UFO program revealed; videos released"},
+      {"date": "2020-04-27", "event": "Pentagon releases UAP videos", "significance": "Official acknowledgment of authentic UAP footage"},
+      {"date": "2023-07-26", "event": "David Grusch testimony", "significance": "Whistleblower testifies to Congress about crash retrieval programs"}
+    ],
+    "modern_era": "The modern UFO era began in 1947 and continues today with unprecedented government acknowledgment. The US government has established official UAP investigation offices (AARO), held congressional hearings, and released previously classified footage. Multiple whistleblowers have come forward claiming knowledge of crash retrieval and reverse engineering programs. The phenomenon has transitioned from fringe topic to serious national security discussion."
+  },
+  "sightings": {
+    "statistics": {
+      "total_documented": 100000,
+      "verified": 0,
+      "disputed": 80000,
+      "debunked": 15000,
+      "unexplained": 5000,
+      "date_range": {"earliest": "Ancient", "latest": "Present"}
+    },
+    "notable": [
+      {
+        "id": "ufo-sighting-1947-arnold",
+        "name": "Kenneth Arnold Sighting",
+        "date": {"value": "1947-06-24", "precision": "exact"},
+        "location": {"description": "Near Mount Rainier, Washington", "country": "United States", "region": "Washington"},
+        "witnesses": {"count": 1, "types": ["Pilot"], "credibility_factors": ["Experienced pilot", "Detailed account", "Contemporary documentation"]},
+        "description": "Private pilot Kenneth Arnold reported seeing nine crescent-shaped objects flying in formation near Mount Rainier at estimated 1,200+ mph. His description of their movement 'like a saucer skipping across water' led newspapers to coin the term 'flying saucer.' This is considered the beginning of the modern UFO era.",
+        "evidence": ["Pilot testimony", "Contemporary news reports"],
+        "credibility": {"rating": "high", "factors": ["Credible witness", "Detailed account", "No obvious explanation"], "notes": "Foundational modern UFO case"},
+        "featured": true
+      },
+      {
+        "id": "ufo-sighting-1947-roswell",
+        "name": "Roswell Incident",
+        "date": {"value": "1947-07", "precision": "month"},
+        "location": {"description": "Near Roswell, New Mexico", "country": "United States", "region": "New Mexico"},
+        "witnesses": {"count": 100, "types": ["Military personnel", "Civilians"]},
+        "description": "Debris field discovered on ranch; Army initially announced recovery of 'flying disc' before retracting to 'weather balloon.' Witnesses later claimed bodies were recovered. Decades of investigation and controversy followed. Air Force attributed to Project Mogul balloon in 1994.",
+        "evidence": ["Debris", "Multiple witness testimony", "Military records", "Retracted press release"],
+        "credibility": {"rating": "disputed", "factors": ["Military involvement", "Conflicting accounts", "Official explanations changed"], "notes": "Most famous and controversial UFO case"},
+        "featured": true
+      },
+      {
+        "id": "ufo-sighting-2004-nimitz",
+        "name": "USS Nimitz Tic-Tac Encounter",
+        "date": {"value": "2004-11-14", "precision": "exact"},
+        "location": {"description": "Pacific Ocean, off San Diego coast", "country": "United States", "region": "Pacific Ocean", "coordinates": {"latitude": 31.0, "longitude": -117.0}},
+        "witnesses": {"count": 10, "types": ["Navy pilots", "Radar operators", "Ship crew"]},
+        "description": "Navy F/A-18 pilots from USS Nimitz carrier group encountered a white, tic-tac shaped object that exhibited extraordinary flight characteristics including instantaneous acceleration and trans-medium travel. Radar tracked objects descending from 80,000 feet to sea level in seconds. Commander David Fravor and Lt. Cmdr. Alex Dietrich were primary pilot witnesses. FLIR footage recorded.",
+        "evidence": ["FLIR video", "Multiple pilot testimony", "Radar data", "Official Navy confirmation"],
+        "credibility": {"rating": "high", "factors": ["Multiple trained military observers", "Radar confirmation", "Video evidence", "Official acknowledgment"], "notes": "Key case in modern disclosure; released by Pentagon"},
+        "featured": true
+      },
+      {
+        "id": "ufo-sighting-1980-rendlesham",
+        "name": "Rendlesham Forest Incident",
+        "date": {"value": "1980-12-26", "precision": "exact"},
+        "location": {"description": "Rendlesham Forest, Suffolk, England", "country": "United Kingdom", "region": "Suffolk"},
+        "witnesses": {"count": 30, "types": ["US Air Force personnel"]},
+        "description": "Over several nights, US Air Force personnel at RAF Woodbridge witnessed and investigated a landed craft in Rendlesham Forest. Deputy Base Commander Lt. Col. Charles Halt documented the incident on audio tape while investigating. Witnesses reported touching the craft and seeing hieroglyphic-like markings.",
+        "evidence": ["Audio tape recording", "Multiple military witnesses", "Physical traces", "Official memo"],
+        "credibility": {"rating": "high", "factors": ["Multiple military witnesses", "Contemporary documentation", "Physical evidence claims"], "notes": "Called 'Britain's Roswell'"},
+        "featured": true
+      }
+    ],
+    "database_path": "./sightings/"
+  },
+  "evidence": {
+    "physical": [
+      {"id": "ufo-evidence-malmstrom", "type": "electronic", "name": "Malmstrom AFB missile shutdown", "description": "10 Minuteman missiles allegedly disabled during UFO incident", "status": "disputed", "date": "1967-03-16"},
+      {"id": "ufo-evidence-traces", "type": "landing traces", "name": "Various landing trace cases", "description": "Soil samples, radiation readings, compressed vegetation from landing sites", "status": "verified anomalies"}
+    ],
+    "photographic": [
+      {"id": "ufo-evidence-mcminnville", "type": "photographs", "name": "McMinnville, Oregon photos", "description": "1950 photos by Paul Trent; analyzed extensively; remain unexplained", "status": "disputed"},
+      {"id": "ufo-evidence-belgian", "type": "photographs", "name": "Belgian triangle photos", "description": "Photos from 1989-1990 wave", "status": "some confirmed hoaxes"}
+    ],
+    "video": [
+      {"id": "ufo-evidence-gimbal", "type": "video", "name": "GIMBAL video", "description": "2015 Navy footage showing rotating object", "status": "verified authentic", "analysis": "Officially released by Pentagon"},
+      {"id": "ufo-evidence-gofast", "type": "video", "name": "GOFAST video", "description": "2015 Navy footage of fast-moving object", "status": "verified authentic", "analysis": "Officially released by Pentagon"},
+      {"id": "ufo-evidence-flir1", "type": "video", "name": "FLIR1/Tic-Tac video", "description": "2004 USS Nimitz encounter footage", "status": "verified authentic", "analysis": "Officially released by Pentagon"}
+    ],
+    "audio": [
+      {"id": "ufo-evidence-halt-tape", "type": "audio", "name": "Lt. Col. Halt tape", "description": "Real-time audio recording during Rendlesham Forest investigation", "status": "verified authentic"}
+    ],
+    "documentary": [
+      {"id": "ufo-evidence-bluebook", "type": "government records", "name": "Project Blue Book files", "description": "US Air Force UFO investigation files 1952-1969; 12,618 cases", "status": "verified", "analysis": "701 cases remained unexplained"},
+      {"id": "ufo-evidence-aatip", "type": "government program", "name": "AATIP documents", "description": "Advanced Aerospace Threat Identification Program materials", "status": "verified"},
+      {"id": "ufo-evidence-congress", "type": "government records", "name": "Congressional testimony", "description": "Multiple congressional hearings 2022-2023 with whistleblower testimony", "status": "verified"}
+    ]
+  },
+  "theories": {
+    "paranormal": [
+      {"name": "Extraterrestrial Hypothesis (ETH)", "description": "UFOs are spacecraft piloted by beings from other planets", "proponents": ["Stanton Friedman", "Many researchers"], "evidence_cited": ["Craft capabilities", "Entity reports", "Interstellar distances traversable with advanced tech"]},
+      {"name": "Interdimensional Hypothesis", "description": "UFOs originate from parallel dimensions or realities", "proponents": ["Jacques Vallee", "John Keel"], "evidence_cited": ["Paranormal aspects", "Instantaneous appearances", "Reality-bending encounters"]},
+      {"name": "Ultraterrestrial Hypothesis", "description": "UFOs are from Earth but a non-human civilization (underwater, underground, etc.)", "proponents": ["Various researchers"], "evidence_cited": ["Trans-medium capability", "Historical presence", "USO reports"]},
+      {"name": "Time Traveler Hypothesis", "description": "UFO occupants are future humans traveling back in time", "proponents": ["Michael Masters"], "evidence_cited": ["Humanoid appearance of some entities", "Interest in human genetics"]}
+    ],
+    "scientific": [
+      {"name": "Advanced human technology", "description": "Sightings are secret military aircraft and drones", "proponents": ["US Air Force (historically)", "Various skeptics"], "evidence_cited": ["Some cases proven to be military", "Stealth development parallels UFO waves"]},
+      {"name": "Plasma phenomena", "description": "Natural atmospheric plasma formations create light phenomena", "proponents": ["Hessdalen researchers"], "evidence_cited": ["Hessdalen lights studied", "Ball lightning research"]},
+      {"name": "Misidentification", "description": "Most UFOs are misidentified conventional objects", "proponents": ["Project Blue Book", "Various scientists"], "evidence_cited": ["High percentage of cases explained", "Human perception limitations"]}
+    ],
+    "skeptical": [
+      {"name": "Mass delusion/Cultural phenomenon", "description": "UFOs are a modern myth fueled by media and expectation", "proponents": ["Carl Jung (partially)", "Various sociologists"], "evidence_cited": ["Pattern of waves following media coverage", "Cultural variation in entity descriptions"]},
+      {"name": "Hoaxes and fraud", "description": "Many high-profile cases are deliberate fabrications", "proponents": ["Philip Klass", "Various debunkers"], "evidence_cited": ["Confirmed hoaxes", "Financial motives"]},
+      {"name": "Psychological explanations", "description": "Encounters explained by sleep paralysis, false memory, etc.", "proponents": ["Susan Clancy", "Various psychologists"], "evidence_cited": ["Abduction reports correlate with sleep disorders", "Hypnosis creates false memories"]}
+    ]
+  },
+  "cultural": {
+    "folklore": {
+      "traditions": ["Modern technological mythology", "Government conspiracy narrative", "Alien contact stories"],
+      "stories": ["Roswell crash recovery", "Area 51 secrets", "Abduction narratives", "Government coverup"],
+      "beliefs": "UFO phenomena have become central to modern American mythology, representing both hopes for cosmic contact and fears of government secrecy and technological superiority."
+    },
+    "indigenous": {
+      "cultures": ["Hopi (Star People)", "Zuni", "Dogon", "Aboriginal Australian", "Various worldwide"],
+      "significance": "Many indigenous cultures have star being traditions that some researchers connect to UFO phenomena",
+      "sensitivity_note": "Indigenous star being traditions should be understood on their own cultural terms, not merely as 'ancient UFO sightings'",
+      "respect_guidelines": "Consult indigenous sources and avoid appropriating or misrepresenting traditional knowledge"
+    },
+    "popular_culture": {
+      "literature": ["The Report on Unidentified Flying Objects by Edward Ruppelt", "Communion by Whitley Strieber", "UFOs: Generals, Pilots and Government Officials Go On the Record by Leslie Kean"],
+      "film_tv": ["Close Encounters of the Third Kind (1977)", "E.T. (1982)", "The X-Files (1993-2018)", "Independence Day (1996)", "Arrival (2016)"],
+      "games": ["Various video games featuring aliens/UFOs"],
+      "other": ["UFO tourism (Roswell, Area 51)", "SETI program", "Ancient Aliens TV show", "Countless documentaries"]
+    }
+  },
+  "research": {
+    "researchers": [
+      {"name": "J. Allen Hynek", "affiliation": "Project Blue Book / CUFOS", "contribution": "Created classification system; transitioned from skeptic to advocate", "period": "1948-1986"},
+      {"name": "Jacques Vallee", "affiliation": "Independent", "contribution": "Interdimensional hypothesis; computer analysis of cases", "period": "1960s-present"},
+      {"name": "Stanton Friedman", "affiliation": "Independent", "contribution": "Roswell research; nuclear physicist UFO advocate", "period": "1970-2019"},
+      {"name": "Leslie Kean", "affiliation": "Journalist", "contribution": "Broke AATIP story; authored influential book", "period": "2000s-present"},
+      {"name": "Lue Elizondo", "affiliation": "Former AATIP director", "contribution": "Whistleblower; brought Navy videos to public", "period": "2017-present"},
+      {"name": "David Grusch", "affiliation": "Former NGA/NRO", "contribution": "Congressional whistleblower on crash retrieval programs", "period": "2023-present"}
+    ],
+    "organizations": [
+      {"name": "AARO", "url": "https://www.aaro.mil", "focus": "Official US government UAP investigation office"},
+      {"name": "MUFON", "url": "https://www.mufon.com", "focus": "Largest civilian UFO investigation organization"},
+      {"name": "CUFOS", "url": "https://www.cufos.org", "focus": "J. Allen Hynek Center for UFO Studies"},
+      {"name": "SCU", "url": "https://www.explorescu.org", "focus": "Scientific Coalition for UAP Studies"}
+    ],
+    "ongoing_studies": "AARO conducts official government investigation. NASA has established UAP study team. Multiple congressional oversight activities ongoing. Private research continues through MUFON, SCU, and academic institutions."
+  },
+  "sources": [
+    {"id": "kean-2010", "type": "book", "title": "UFOs: Generals, Pilots and Government Officials Go On the Record", "authors": ["Leslie Kean"], "publication": "Harmony Books", "date": "2010"},
+    {"id": "vallee-1969", "type": "book", "title": "Passport to Magonia", "authors": ["Jacques Vallee"], "publication": "Henry Regnery", "date": "1969"},
+    {"id": "hynek-1972", "type": "book", "title": "The UFO Experience: A Scientific Inquiry", "authors": ["J. Allen Hynek"], "publication": "Henry Regnery", "date": "1972"},
+    {"id": "ruppelt-1956", "type": "book", "title": "The Report on Unidentified Flying Objects", "authors": ["Edward J. Ruppelt"], "publication": "Doubleday", "date": "1956"}
+  ],
+
+  "government_programs": {
+    "description": "Official government programs investigating UFO/UAP phenomena",
+    "programs": [
+      {
+        "name": "Project Sign",
+        "country": "United States",
+        "agency": "US Air Force",
+        "period": "1947-1949",
+        "classification": "Secret (declassified)",
+        "findings": "Initial Air Force investigation; some personnel concluded extraterrestrial origin"
+      },
+      {
+        "name": "Project Grudge",
+        "country": "United States",
+        "agency": "US Air Force",
+        "period": "1949-1951",
+        "classification": "Secret (declassified)",
+        "findings": "Debunking-oriented successor to Sign"
+      },
+      {
+        "name": "Project Blue Book",
+        "country": "United States",
+        "agency": "US Air Force",
+        "period": "1952-1969",
+        "classification": "Unclassified",
+        "findings": "12,618 cases investigated; 701 remained unexplained"
+      },
+      {
+        "name": "AATIP",
+        "country": "United States",
+        "agency": "Department of Defense",
+        "period": "2007-2012",
+        "classification": "Secret",
+        "findings": "Advanced Aerospace Threat Identification Program; revealed in 2017"
+      },
+      {
+        "name": "UAPTF",
+        "country": "United States",
+        "agency": "US Navy / DoD",
+        "period": "2020-2022",
+        "classification": "Unclassified",
+        "findings": "Unidentified Aerial Phenomena Task Force; produced preliminary report"
+      },
+      {
+        "name": "AARO",
+        "country": "United States",
+        "agency": "Department of Defense",
+        "period": "2022-present",
+        "classification": "Unclassified with classified components",
+        "findings": "All-domain Anomaly Resolution Office; current official investigation body"
+      }
+    ]
+  }
+}
