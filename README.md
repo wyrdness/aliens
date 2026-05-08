@@ -1,250 +1,232 @@
-# UFOs/UAPs & Alien Encounters
+# UFOs / UAPs and Alien Encounters
 
-> *Unidentified Aerial Phenomena and Non-Human Intelligence*
+> The cluster of phenomena known as UFOs (unidentified flying objects) or UAPs (unidentified anomalous phenomena) covers reports of unexplained aerial, transmedium, and spaceborne objects, alongside alleged encounters with non-human intelligences. The modern era is conventionally dated to Kenneth Arnold's 1947 sighting; the US government formally established the All-domain Anomaly Resolution Office (AARO) in 2022.
 
-Unidentified aerial phenomena (UAPs/UFOs) and alleged encounters with non-human intelligences. Includes sightings of unexplained craft and reported contact with extraterrestrial or interdimensional beings.
+[![API Version](https://img.shields.io/badge/api-v1.1.0-blue)]() [![Last Updated](https://img.shields.io/badge/updated-2026-05-07-green)]() [![Sightings](https://img.shields.io/badge/sightings-0-orange)]() ![Status](https://img.shields.io/badge/status-active-blue)
 
+---
 ## Quick Reference
 
-| Attribute | Value |
-|-----------|-------|
+| Property | Value |
+|---|---|
+| **ID** | `aliens` |
 | **Category** | UFO_UAP |
-| **First Modern Report** | June 24, 1947 (Kenneth Arnold) |
-| **Status** | Active |
-| **Distribution** | Worldwide |
-| **Official Investigation** | AARO (US), various international programs |
+| **Subcategory** | Sightings, government investigations, and contact reports |
+| **First recorded** | 1947-06-24 |
+| **Primary range** | Worldwide distribution of reports, with reporting density correlated with population, military activity, and the existence of national reporting channels |
+| **Status** | active |
 
+---
 ## Overview
 
-The UFO/UAP phenomenon encompasses sightings of unidentified aerial objects and alleged encounters with non-human intelligences that have been reported throughout human history but gained prominence in the modern era beginning with the 1947 Kenneth Arnold sighting. The phenomenon includes simple sightings (Close Encounters of the First Kind), physical evidence cases (Second Kind), contact with occupants (Third Kind), abductions (Fourth Kind), and communication (Fifth Kind). In 2020, the US government officially acknowledged UAPs as a national security concern, releasing footage and establishing investigative offices. The phenomenon remains one of the most documented yet unexplained aspects of human experience, with thousands of credible witnesses including military personnel, pilots, and astronauts.
+The UFO/UAP phenomenon comprises reports of unexplained aerial and transmedium objects and a smaller subset of accounts of alleged contact and abduction by non-human intelligences. The acronym UFO ('unidentified flying object') was coined by US Air Force Captain Edward J. Ruppelt in the early 1950s to replace the more sensational 'flying saucer'; in the 21st century the United States government has standardised on UAP, originally 'unidentified aerial phenomena' and from 2022 'unidentified anomalous phenomena', to cover transmedium and spaceborne reports and to avoid the cultural baggage of 'UFO'. The modern phenomenon is conventionally dated to private pilot Kenneth Arnold's sighting near Mount Rainier, Washington on 24 June 1947, which gave rise to the 'flying saucer' label. Successive US Air Force investigations (Project Sign 1948, Project Grudge 1949, Project Blue Book 1952–1969) cataloged 12,618 reports before being terminated following the 1968 Condon Committee report. The phenomenon re-entered mainstream political attention with the New York Times' 16 December 2017 disclosure of the Advanced Aviation Threat Identification Program (AATIP) and the release of three US Navy infrared videos ('FLIR1', 'GIMBAL', 'GoFast'). The Department of Defense established the UAP Task Force (2020) and the Airborne Object Identification and Management Synchronization Group (AOIMSG, 2021), succeeded in 2022 by the All-domain Anomaly Resolution Office (AARO). The first open congressional hearing in over fifty years was held in May 2022, followed by further hearings in July 2023 featuring testimony by former intelligence officer David Grusch. NASA convened an independent UAP study, releasing its public report on 14 September 2023. Mainstream scientific consensus continues to hold that no available evidence demonstrates an extraterrestrial origin for any specific case, while acknowledging that a residue of well-documented reports remains genuinely unexplained.
 
-## Terminology
+---
+## Names & Aliases
 
-| Term | Meaning |
-|------|---------|
-| UFO | Unidentified Flying Object |
-| UAP | Unidentified Aerial/Anomalous Phenomenon (modern official term) |
-| NHI | Non-Human Intelligence (recent official terminology) |
-| Flying Saucer | Popular term from 1947 onwards |
-| Greys | Most commonly reported alien type |
+| Name | Origin | Meaning |
+|---|---|---|
+| UFO | English | Unidentified Flying Object |
+| UAP (current US usage) | English | Unidentified Anomalous Phenomena |
+| UAP (earlier usage) | English | Unidentified Aerial Phenomena |
+| Flying saucer | English | Popularised after the 1947 Kenneth Arnold sighting |
 
-## Hynek Classification System
+## Etymology
 
-The Close Encounter scale developed by Dr. J. Allen Hynek:
+- **Origin**: 'UFO' coined by Capt. Edward J. Ruppelt of the USAF in the early 1950s; 'UAP' adopted by the US government in the 21st century.
+- **Meaning**: UFO: unidentified flying object. UAP (post-2022): unidentified anomalous phenomena.
+- **First use**: 'Flying saucer' (1947, after Arnold); 'UFO' (early 1950s, USAF); 'UAP' as 'unidentified aerial phenomena' (US Navy, late 2010s); 'UAP' as 'unidentified anomalous phenomena' (US Congress, 2022).
 
-| Type | Name | Description |
-|------|------|-------------|
-| CE1 | Close Encounter of the First Kind | Visual sighting of UAP within 500 feet |
-| CE2 | Close Encounter of the Second Kind | UAP leaves physical evidence (landing traces, radiation, vehicle interference) |
-| CE3 | Close Encounter of the Third Kind | Observation of occupants/entities associated with UAP |
-| CE4 | Close Encounter of the Fourth Kind | Abduction by UAP occupants |
-| CE5 | Close Encounter of the Fifth Kind | Direct communication with UAP intelligence |
+---
+## Related Phenomena
 
-## Craft Types
+- [Alien abduction phenomenon](../alien-abduction/) — _subset_: Reports of alleged abduction by non-human intelligences
+- [Men in Black](../men-in-black/) — _related_: UFO-adjacent folklore of mysterious harassers
+- [Cattle mutilation](../cattle-mutilation/) — _related_: 1970s-onward phenomenon often linked in popular literature to UFOs
 
-| Type | Description | Notable Cases |
-|------|-------------|---------------|
-| Disc/Saucer | Classic circular or oval disc shape | Kenneth Arnold (1947), McMinnville (1950) |
-| Tic-Tac/Capsule | Elongated white capsule; no visible propulsion | USS Nimitz (2004), USS Roosevelt (2015) |
-| Triangle/Boomerang | Dark triangular craft with corner lights | Phoenix Lights (1997), Belgian Wave (1989-90) |
-| Sphere/Orb | Spherical, often luminous objects | Foo Fighters (WWII), Military encounters |
-| Cigar/Cylinder | Elongated cylindrical craft | Various historical reports |
+---
+## Physical Description
 
-## Entity Types
+- **Morphology**: Reports describe a wide variety of geometric forms with low signature (no visible exhaust, control surfaces, or propulsion).
 
-### Greys
-- **Height**: 0.9-1.5 meters
-- **Features**: Gray skin, large cranium, large almond-shaped black eyes, thin body
-- **Frequency**: Most common type in Western encounters
-- **Notable Cases**: Betty and Barney Hill (1961), Whitley Strieber accounts
+### Features
 
-### Nordics
-- **Height**: 1.8-2.1 meters
-- **Features**: Human appearance, blonde hair, blue eyes, described as benevolent
-- **Frequency**: Common in contactee reports
+| Feature | Description | Frequency |
+|---|---|---|
+| Saucer / disc forms | Disc-, ellipsoidal-, or saucer-shaped craft are the dominant form in early modern reports | common |
+| Tic-Tac / capsule forms | Smooth white capsule-shaped objects, as in the 2004 USS Nimitz encounters | occasional |
+| Triangular forms | Large dark triangular craft, especially in late-20th-century European and American reports | occasional |
+| Spheres / orbs | Luminous spherical or orb-shaped objects, prominent in modern military pilot reports | common |
 
-### Reptilians
-- **Height**: 1.8-2.4 meters
-- **Features**: Scaled skin, vertical pupils, humanoid form
-- **Frequency**: Occasional in abduction reports
+## Reported Abilities
 
-### Mantis/Insectoid
-- **Height**: 1.8-2.7 meters
-- **Features**: Insect-like appearance, large eyes, long limbs
-- **Frequency**: Occasional; often reported overseeing procedures
+| Ability | Description | Frequency | Evidence |
+|---|---|---|---|
+| Apparent extreme acceleration | Reports describe accelerations and speeds inconsistent with known propulsion | common | reported |
+| Transmedium travel | Apparent transition between air and water without visible damage or signature | occasional | reported |
+| Apparent low / silent signature | No visible exhaust, control surfaces, or audible signature in many close-range reports | common | reported |
 
-## Reported Capabilities
+## Behavior
 
-| Capability | Description | Evidence Level |
-|------------|-------------|----------------|
-| Instantaneous acceleration | Extreme acceleration without apparent inertia | Radar/visual confirmation |
-| Trans-medium travel | Seamless movement between air, water, space | Military radar/sonar |
-| Hypersonic speed | Far exceeding known technology | Radar confirmation |
-| Anti-gravity propulsion | Hover/maneuver without visible propulsion | Observed |
-| Electromagnetic interference | Causes vehicle/electronic failures | Documented |
-| Cloaking | Appear/disappear or change visibility | Reported |
+- **Activity**: variable
+- **Disposition**: neutral
+- **Habitat**: military training airspace, near nuclear facilities, near major airports, open ocean
 
+---
+## Distribution
+
+Worldwide distribution of reports, with reporting density correlated with population, military activity, and the existence of national reporting channels.
+
+### Hotspots
+
+| Location | Region | Sightings | Peak |
+|---|---|---|---|
+| Roswell, New Mexico | New Mexico, United States |  | 1947 |
+| USS Nimitz operating area, off San Diego | Pacific Ocean, United States |  | 2004 |
+| Hessdalen Valley | Trøndelag, Norway |  | 1981–present |
+
+---
 ## Historical Timeline
 
 | Date | Event | Significance |
-|------|-------|--------------|
-| 1561-04-14 | Nuremberg celestial phenomenon | Mass sighting documented in woodcut |
-| 1897 | Great Airship Wave | Thousands report mysterious airships across US |
-| 1942-02-25 | Battle of Los Angeles | US military fires on unidentified objects |
-| 1947-06-24 | Kenneth Arnold sighting | Beginning of modern UFO era; "flying saucer" coined |
-| 1947-07 | Roswell Incident | Alleged crash recovery; iconic case |
-| 1952-07 | Washington DC flap | Multiple radar/visual over US capital |
-| 1961-09-19 | Betty and Barney Hill | First widely publicized abduction |
-| 1967-03-16 | Malmstrom AFB incident | UFO allegedly disables nuclear missiles |
-| 1980-12-26 | Rendlesham Forest | Multiple USAF personnel encounter landed craft |
-| 1989-1990 | Belgian UFO wave | Mass sightings; military jets scrambled |
-| 1997-03-13 | Phoenix Lights | Thousands witness large craft |
-| 2004-11-14 | USS Nimitz Tic-Tac | Navy pilots encounter anomalous craft |
-| 2017-12-16 | NY Times AATIP story | Secret Pentagon program revealed |
-| 2020-04-27 | Pentagon releases videos | Official acknowledgment of authentic UAP footage |
-| 2023-07-26 | David Grusch testimony | Whistleblower testifies to Congress |
+|---|---|---|
+| 1947-06-24 | Kenneth Arnold reports nine objects near Mount Rainier, Washington, giving rise to 'flying saucer' | Conventional starting point of the modern UFO era |
+| 1947-07-08 | Roswell Army Air Field issues a press release describing recovery of a 'flying disc'; retracted the following day as a weather balloon | Origin of the Roswell incident |
+| 1948 | US Air Force Project Sign begins | First US government UFO investigation |
+| 1952-03 | Project Blue Book is established | Principal US Air Force UFO investigation 1952–1969 |
+| 1969-01 | Condon Committee Report (University of Colorado) is published | Concludes UFO study has not contributed to scientific knowledge; basis for closure of Blue Book |
+| 1969-12-17 | US Air Force formally terminates Project Blue Book | End of formal US Air Force investigation |
+| 2004-11-14 | USS Nimitz Carrier Strike Group F/A-18F crews encounter the 'Tic Tac' UAP off San Diego | Primary case of the modern UAP era |
+| 2017-12-16 | The New York Times publishes 'Glowing Auras and Black Money', disclosing the Advanced Aviation Threat Identification Program (AATIP) | Triggers the modern political and media UAP era |
+| 2020-08-04 | US Department of Defense establishes the UAP Task Force | Formal US government UAP investigation re-established |
+| 2022-05-17 | First open Congressional hearing on UAPs in more than 50 years, held by the House Intelligence Subcommittee on Counterterrorism | Public political reframing of UAP investigation |
+| 2022-07 | Congress establishes the All-domain Anomaly Resolution Office (AARO) in the National Defense Authorization Act for Fiscal Year 2022 | Successor to the UAP Task Force; broadens scope to transmedium and spaceborne phenomena |
+| 2023-07-26 | House Oversight Subcommittee hearing featuring testimony by former intelligence officer David Grusch and Navy pilots Ryan Graves and David Fravor | Highest-profile UAP testimony to date; remains contested |
+| 2023-09-14 | NASA UAP Independent Study Team publishes its report | First NASA-led public UAP report; finds no extraterrestrial origin in available data and recommends improved sensors |
 
-## Notable Cases
+---
+## Notable Sightings
 
-### Kenneth Arnold Sighting (1947)
-**The Beginning of the Modern UFO Era**
-
-- **Date**: June 24, 1947
-- **Location**: Near Mount Rainier, Washington
-- **Witness**: Kenneth Arnold (private pilot)
-- **Description**: Nine crescent-shaped objects flying in formation at estimated 1,200+ mph
-- **Significance**: Arnold's description of their movement "like a saucer skipping across water" coined the term "flying saucer"
-
-### Roswell Incident (1947)
-**Most Famous and Controversial Case**
-
-- **Date**: July 1947
-- **Location**: Near Roswell, New Mexico
-- **Description**: Debris field discovered; Army initially announced "flying disc" recovery before retracting
-- **Status**: Air Force attributed to Project Mogul balloon (1994); controversy continues
-
-### USS Nimitz Tic-Tac Encounter (2004)
-**Key Modern Disclosure Case**
-
-- **Date**: November 14, 2004
-- **Location**: Pacific Ocean, off San Diego
-- **Witnesses**: Navy pilots Commander David Fravor, Lt. Cmdr. Alex Dietrich, radar operators
-- **Description**: White tic-tac shaped object exhibited instantaneous acceleration, trans-medium travel
-- **Evidence**: FLIR video, multiple pilot testimony, radar data
-- **Status**: Officially released by Pentagon; verified authentic
-
-### Rendlesham Forest Incident (1980)
-**"Britain's Roswell"**
-
-- **Date**: December 26-28, 1980
-- **Location**: Rendlesham Forest, Suffolk, England
-- **Witnesses**: 30+ US Air Force personnel
-- **Description**: Multiple nights of encounters with landed craft; Deputy Base Commander documented on audio tape
-- **Evidence**: Audio recording, physical traces, official memo
-
-## Evidence Categories
-
-### Officially Released Videos
-
-| Video | Date | Source | Status |
-|-------|------|--------|--------|
-| FLIR1/Tic-Tac | 2004 | USS Nimitz | Pentagon confirmed authentic |
-| GIMBAL | 2015 | Navy | Pentagon confirmed authentic |
-| GOFAST | 2015 | Navy | Pentagon confirmed authentic |
-
-### Government Documentation
-
-- **Project Blue Book**: 12,618 cases (1952-1969); 701 unexplained
-- **AATIP materials**: Pentagon UAP program documents
-- **Congressional testimony**: Multiple hearings 2022-2023
-
-### Physical Evidence Claims
-
-- Landing traces (soil samples, radiation, compressed vegetation)
-- Malmstrom AFB missile system interference
-- Various electromagnetic effect cases
-
-## Government Investigation Programs
-
-| Program | Period | Agency | Notes |
-|---------|--------|--------|-------|
-| Project Sign | 1947-1949 | USAF | Initial investigation |
-| Project Grudge | 1949-1951 | USAF | Debunking-oriented |
-| Project Blue Book | 1952-1969 | USAF | 12,618 cases; 701 unexplained |
-| AATIP | 2007-2012 | DoD | Secret program revealed 2017 |
-| UAPTF | 2020-2022 | Navy/DoD | Produced preliminary report |
-| AARO | 2022-present | DoD | Current official investigation |
-
-## Theories
-
-### Extraterrestrial Hypothesis
-UFOs are spacecraft from other planets. Supported by craft capabilities and entity reports.
-
-### Interdimensional Hypothesis
-UFOs originate from parallel dimensions. Proposed by Jacques Vallee based on paranormal aspects of encounters.
-
-### Advanced Human Technology
-Sightings are secret military aircraft. Some cases have been proven military.
-
-### Psychological/Sociological
-Encounters explained by perception, sleep disorders, cultural expectations, or deliberate hoaxes.
-
-## Geographic Hotspots
-
-| Location | Region | Period | Notes |
-|----------|--------|--------|-------|
-| Area 51 | Nevada, USA | 1950s-present | Center of conspiracy theories |
-| Skinwalker Ranch | Utah, USA | 1990s-present | Multiple phenomenon types |
-| Hessdalen Valley | Norway | 1981-present | Scientifically documented lights |
-| Gulf Breeze | Florida, USA | 1987-1992 | Multiple witness wave |
-
-## Research
-
-### Key Researchers
-
-| Name | Contribution | Period |
-|------|--------------|--------|
-| J. Allen Hynek | Classification system; Blue Book consultant | 1948-1986 |
-| Jacques Vallee | Interdimensional hypothesis | 1960s-present |
-| Stanton Friedman | Roswell research | 1970-2019 |
-| Leslie Kean | AATIP disclosure | 2000s-present |
-| Lue Elizondo | AATIP director; whistleblower | 2017-present |
-| David Grusch | Congressional whistleblower | 2023-present |
-
-### Organizations
-
-- **AARO** (aaro.mil) - Official US government investigation
-- **MUFON** (mufon.com) - Largest civilian investigation organization
-- **CUFOS** (cufos.org) - J. Allen Hynek Center for UFO Studies
-- **SCU** (explorescu.org) - Scientific Coalition for UAP Studies
-
-## Sources
-
-### Primary Sources
-
-- Kean, Leslie. *UFOs: Generals, Pilots and Government Officials Go On the Record*. Harmony Books, 2010.
-- Hynek, J. Allen. *The UFO Experience: A Scientific Inquiry*. Henry Regnery, 1972.
-- Vallee, Jacques. *Passport to Magonia*. Henry Regnery, 1969.
-- Ruppelt, Edward J. *The Report on Unidentified Flying Objects*. Doubleday, 1956.
-
-### Official Sources
-
-- Project Blue Book Archive
-- Pentagon UAP releases
-- Congressional hearing transcripts
-
-## Cultural Note
-
-Many indigenous cultures worldwide have star being traditions. These should be understood on their own cultural terms, not merely as "ancient UFO sightings." Consult indigenous sources and respect traditional knowledge.
-
-## API Reference
-
-This repository includes a machine-readable `api.json` file containing structured data about UFO/UAP phenomena. See the [Wyrdness API documentation](https://github.com/wyrdness/.github) for usage details.
-
-## Contributing
-
-See [CONTRIBUTING.md](https://github.com/wyrdness/.github/blob/main/CONTRIBUTING.md) for guidelines on submitting sightings, corrections, and sources.
+### Kenneth Arnold, Mount Rainier ⭐
+> **Date**: 1947-06-24  
+> **Location**: Skies between Mount Rainier and Mount Adams, Cascade Range  
+> **Witnesses**: 1 (Private pilot Kenneth Arnold)  
+While flying his CallAir A-2 from Chehalis to Yakima, Arnold reported seeing nine bright objects in formation flying past Mount Rainier at high speed. He compared their motion to 'a saucer skipped across water', a description that gave rise to 'flying saucer'.
+**Credibility**: medium
+**Sources**: Wikipedia: Kenneth Arnold UFO sighting
 
 ---
 
-*Part of the [Wyrdness](https://github.com/wyrdness) paranormal documentation project*
+### Roswell incident ⭐
+> **Date**: 1947-07-08  
+> **Location**: Ranch land near Roswell Army Air Field  
+Debris recovered on the J.B. Foster ranch near Corona, New Mexico. The 8 July 1947 RAAF press release initially described the recovery of a 'flying disc'; the Air Force retracted within 24 hours, saying the object was a weather balloon. The 1994 and 1997 US Air Force reports identified the debris as components of a Project Mogul high-altitude balloon array.
+**Credibility**: low — Foundational case of UFO conspiracy literature.
+**Sources**: USAF, The Roswell Report (1994; 1997)
+
+---
+
+### USS Nimitz Tic Tac encounter ⭐
+> **Date**: 2004-11-14  
+> **Location**: Pacific Ocean approximately 100 nautical miles southwest of San Diego  
+> **Witnesses**: 4 (Cdr. David Fravor (USN), Lt. Cdr. Alex Dietrich (USN), USS Princeton radar operators)  
+While on a training mission with the USS Nimitz Carrier Strike Group, F/A-18F Super Hornet crews from VFA-41 vectored toward radar contacts the cruiser USS Princeton had been tracking for days. Fravor and Dietrich each visually identified a smooth, white, capsule-shaped 'Tic Tac' object roughly 12 m long, with no wings or visible exhaust, performing high-acceleration manoeuvres over a churning patch of sea. A subsequent FLIR pod recording from another F/A-18F became the 'FLIR1' video.
+**Credibility**: high — Centrepiece of the modern UAP investigations; included in the 2021 ODNI preliminary assessment.
+**Sources**: Cooper, Blumenthal & Kean, NYT, 16 December 2017; ODNI Preliminary Assessment: UAP, 25 June 2021
+
+---
+
+
+## Evidence
+
+### Video
+
+| Name | Date | Description | Status |
+|---|---|---|---|
+| FLIR1 (USS Nimitz) | 2004-11-14 | Forward-Looking Infrared (FLIR) video from an F/A-18F Super Hornet of VFA-41 showing the 'Tic Tac' UAP off the USS Nimitz. | verified |
+| GIMBAL | 2015 | FLIR video from a US Navy F/A-18F off the US East Coast showing a rotating object against background clouds. | verified |
+| GoFast | 2015 | FLIR video from a US Navy F/A-18F off the US East Coast showing a small object skimming above the ocean. | verified |
+### Documentary
+
+| Name | Date | Description | Status |
+|---|---|---|---|
+| Condon Report | 1969-01 | Final report of the University of Colorado UFO Project, contracted by the US Air Force. | verified |
+| ODNI Preliminary Assessment: Unidentified Aerial Phenomena | 2021-06-25 | Office of the Director of National Intelligence assessment of 144 UAP reports gathered by the UAP Task Force. | verified |
+| NASA UAP Independent Study Team Report | 2023-09-14 | Public report of NASA's independent UAP study team. | verified |
+
+---
+## Theories & Explanations
+
+### Paranormal / Cryptozoological
+
+**Extraterrestrial hypothesis (ETH)** _(J. Allen Hynek (later career), Stanton T. Friedman, Jacques Vallée (early career))_
+
+UAPs are or include craft of extraterrestrial origin.
+
+**Interdimensional / control system hypothesis** _(John Keel, Jacques Vallée (later career))_
+
+UAPs and contact phenomena are manifestations of an intelligence operating across dimensions or as a long-running 'control system' shaping human belief.
+
+### Scientific
+
+**Sensor and identification gaps** _(AARO, NASA UAP Independent Study Team (2023))_
+
+A meaningful proportion of UAP reports represent the limits of current sensors and identification procedures rather than novel craft; a residue may reflect adversary technology not yet identified.
+
+### Skeptical
+
+**Misidentification and human factors** _(Donald H. Menzel, Philip J. Klass, Edward U. Condon, Mick West)_
+
+The vast majority of reports are explainable as misidentification of aircraft, balloons, satellites, atmospheric phenomena, optical illusions, and human perceptual factors.
+
+
+## Popular Culture
+
+**Literature**: The Report on Unidentified Flying Objects — Edward J. Ruppelt (1956); Passport to Magonia — Jacques Vallée (1969); Communion — Whitley Strieber (1987); American Cosmic — Diana Walsh Pasulka (2019)
+
+**Film / TV**: Close Encounters of the Third Kind (1977); The X-Files (1993–2018); Phenomenon (2024 docuseries)
+
+**Other**: Popular convention culture (e.g. International UFO Congress, Roswell UFO Festival)
+
+---
+## Research
+
+### Researchers
+
+| Name | Affiliation | Contribution | Period |
+|---|---|---|---|
+| Edward J. Ruppelt | US Air Force, Project Blue Book | Coined the term 'UFO'; first formal director of Project Blue Book | 1951–1953 |
+| J. Allen Hynek | Northwestern University; USAF consultant | Scientific consultant to Sign / Grudge / Blue Book; later founded the Center for UFO Studies | 1948–1986 |
+| Jacques Vallée | Independent (computer science / astrophysics) | Pioneer of comparative folkloric and information-theoretic approaches to UFO data | 1960s–present |
+| Donald H. Menzel | Harvard University (astronomy) | Foundational scientific skeptic of the UFO phenomenon | 1950s–1970s |
+| Philip J. Klass | Aviation Week & Space Technology | Long-running skeptical investigation of UFO cases | 1960s–2000s |
+| David Grusch | Former US Intelligence Community | Whistleblower testimony on alleged UAP retrieval programs (2023) | 2023 |
+
+### Organizations
+
+- [All-domain Anomaly Resolution Office (AARO)](https://www.aaro.mil) — US Department of Defense / Office of the Director of National Intelligence joint UAP investigation office
+- [GEIPAN](https://www.cnes-geipan.fr) — French CNES UAP study group
+- [Mutual UFO Network (MUFON)](https://mufon.com) — Civilian US-based UFO investigation organisation
+- [Project Hessdalen](https://hessdalen.org) — Long-running instrumented Norwegian luminous-phenomena observatory
+
+Active programmes include AARO (US), GEIPAN (France), the NASA UAP study office (post-2023), and instrumented observation efforts (Project Hessdalen; Galileo Project at Harvard).
+
+---
+## Sources
+
+See [SOURCES.md](SOURCES.md) for the complete bibliography.
+
+
+## How to Report a Sighting
+
+1. **GitHub Issue**: [Submit Sighting Report](../../issues/new?template=sighting_report.yml)
+2. Provide date, location, witnesses, description, conditions, and any evidence.
+
+---
+## License
+
+Content: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+Data: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)  
+
+---
+_Auto-generated from `api.json`. Do not edit by hand — edit `api.json` and run `make repo-docs`._

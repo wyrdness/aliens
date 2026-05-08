@@ -1,62 +1,26 @@
-# Sources
+# Sources & References — UFOs / UAPs and Alien Encounters
 
-Primary and supplementary sources for UFO/UAP documentation.
+Bibliography compiled from `api.json`. To add a source, edit `api.json` and regenerate.
 
-## Primary Sources
+## Books
 
-### Books
+- Edward U. Condon. (1969). *Scientific Study of Unidentified Flying Objects*. Bantam Books / University of Colorado
+- Edward J. Ruppelt. (1956). *The Report on Unidentified Flying Objects*. Doubleday
+- Jacques Vallée. (1969). *Passport to Magonia: From Folklore to Flying Saucers*. Henry Regnery
 
-| ID | Title | Authors | Publisher | Year |
-|----|-------|---------|-----------|------|
-| kean-2010 | UFOs: Generals, Pilots and Government Officials Go On the Record | Leslie Kean | Harmony Books | 2010 |
-| hynek-1972 | The UFO Experience: A Scientific Inquiry | J. Allen Hynek | Henry Regnery | 1972 |
-| vallee-1969 | Passport to Magonia | Jacques Vallee | Henry Regnery | 1969 |
-| ruppelt-1956 | The Report on Unidentified Flying Objects | Edward J. Ruppelt | Doubleday | 1956 |
+## News
 
-### Government Documents
+- Helene Cooper, Ralph Blumenthal, Leslie Kean. (2017-12-16). *Glowing Auras and 'Black Money': The Pentagon's Mysterious U.F.O. Program*. The New York Times. <https://www.nytimes.com/2017/12/16/us/politics/pentagon-program-ufo-harry-reid.html>
 
-| Source | Description | Access |
-|--------|-------------|--------|
-| Project Blue Book Archive | 12,618 case files | Declassified; National Archives |
-| Pentagon UAP Videos | FLIR1, GIMBAL, GOFAST | Officially released 2020 |
-| Congressional Hearings | 2022-2023 testimonies | Public record |
-| AARO Reports | Official investigation findings | aaro.mil |
+## Archives & Records
 
-## Academic Sources
+- (2021-06-25). *Preliminary Assessment: Unidentified Aerial Phenomena*. Office of the Director of National Intelligence. <https://www.dni.gov/files/ODNI/documents/assessments/Prelimary-Assessment-UAP-20210625.pdf>
+- (2023-09-14). *NASA UAP Independent Study Team Report*. NASA. <https://science.nasa.gov/uap/>
 
-| Title | Authors | Publication | Year |
-|-------|---------|-------------|------|
-| Various peer-reviewed papers | Multiple | Various journals | Ongoing |
+## Websites
 
-## Supplementary Sources
-
-### Documentaries
-
-- The Phenomenon (2020)
-- Unidentified: Inside America's UFO Investigation
-- Various History Channel / Discovery documentaries
-
-### News Archives
-
-- New York Times (AATIP revelations)
-- Washington Post
-- Various international news coverage
-
-### Witness Databases
-
-- MUFON Case Management System
-- NUFORC (National UFO Reporting Center)
-- Various international databases
-
-## Source Verification Status
-
-| Category | Verified | Pending | Unverified |
-|----------|----------|---------|------------|
-| Government documents | 1000+ | 500+ | Unknown |
-| Witness accounts | 5000+ | 50000+ | 50000+ |
-| Physical evidence | 50+ | 100+ | 500+ |
-| Video/Photo | 100+ | 1000+ | 10000+ |
+- *Unidentified anomalous phenomena*. Wikipedia. <https://en.wikipedia.org/wiki/Unidentified_anomalous_phenomena>
+- *Kenneth Arnold UFO sighting*. Wikipedia. <https://en.wikipedia.org/wiki/Kenneth_Arnold_UFO_sighting>
 
 ---
-
-*See [CONTRIBUTING.md](https://github.com/wyrdness/.github/blob/main/CONTRIBUTING.md) for guidelines on adding sources.*
+_Auto-generated from `api.json`._

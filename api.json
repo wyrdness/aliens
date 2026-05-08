@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/aliens",
     "maintainers": [
       {
@@ -16,111 +16,382 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "aliens",
-    "name": "UFOs/UAPs & Alien Encounters",
-    "aliases": [],
-    "category": "|_UFO_UAP_|",
-    "subcategory": "in Western encounters",
-    "tags": [
-      "folklore",
-      "mythology"
+    "name": "UFOs / UAPs and Alien Encounters",
+    "aliases": [
+      { "name": "UFO", "language": "English", "meaning": "Unidentified Flying Object" },
+      { "name": "UAP (current US usage)", "language": "English", "meaning": "Unidentified Anomalous Phenomena" },
+      { "name": "UAP (earlier usage)", "language": "English", "meaning": "Unidentified Aerial Phenomena" },
+      { "name": "Flying saucer", "language": "English", "meaning": "Popularised after the 1947 Kenneth Arnold sighting" }
     ],
-    "status": "documented",
+    "category": "UFO_UAP",
+    "subcategory": "Sightings, government investigations, and contact reports",
+    "tags": [
+      "ufo",
+      "uap",
+      "aerial-phenomena",
+      "government-investigation",
+      "contact",
+      "abduction",
+      "modern-folklore",
+      "national-security"
+    ],
+    "status": "active",
     "description": {
-      "summary": "The UFO/UAP phenomenon encompasses sightings of unidentified aerial objects and alleged encounters with non-human intelligences that have been reported throughout human history but gained prominence in the modern era beginning with the 1947 Kenneth Arnold sighting.",
-      "full": "The UFO/UAP phenomenon encompasses sightings of unidentified aerial objects and alleged encounters with non-human intelligences that have been reported throughout human history but gained prominence in the modern era beginning with the 1947 Kenneth Arnold sighting. The phenomenon includes simple sightings (Close Encounters of the First Kind), physical evidence cases (Second Kind), contact with occupants (Third Kind), abductions (Fourth Kind), and communication (Fifth Kind). In 2020, the US government officially acknowledged UAPs as a national security concern, releasing footage and establishing investigative offices. The phenomenon remains one of the most documented yet unexplained aspects of human experience, with thousands of credible witnesses including military personnel, pilots, and astronauts."
+      "summary": "The cluster of phenomena known as UFOs (unidentified flying objects) or UAPs (unidentified anomalous phenomena) covers reports of unexplained aerial, transmedium, and spaceborne objects, alongside alleged encounters with non-human intelligences. The modern era is conventionally dated to Kenneth Arnold's 1947 sighting; the US government formally established the All-domain Anomaly Resolution Office (AARO) in 2022.",
+      "full": "The UFO/UAP phenomenon comprises reports of unexplained aerial and transmedium objects and a smaller subset of accounts of alleged contact and abduction by non-human intelligences. The acronym UFO ('unidentified flying object') was coined by US Air Force Captain Edward J. Ruppelt in the early 1950s to replace the more sensational 'flying saucer'; in the 21st century the United States government has standardised on UAP, originally 'unidentified aerial phenomena' and from 2022 'unidentified anomalous phenomena', to cover transmedium and spaceborne reports and to avoid the cultural baggage of 'UFO'. The modern phenomenon is conventionally dated to private pilot Kenneth Arnold's sighting near Mount Rainier, Washington on 24 June 1947, which gave rise to the 'flying saucer' label. Successive US Air Force investigations (Project Sign 1948, Project Grudge 1949, Project Blue Book 1952–1969) cataloged 12,618 reports before being terminated following the 1968 Condon Committee report. The phenomenon re-entered mainstream political attention with the New York Times' 16 December 2017 disclosure of the Advanced Aviation Threat Identification Program (AATIP) and the release of three US Navy infrared videos ('FLIR1', 'GIMBAL', 'GoFast'). The Department of Defense established the UAP Task Force (2020) and the Airborne Object Identification and Management Synchronization Group (AOIMSG, 2021), succeeded in 2022 by the All-domain Anomaly Resolution Office (AARO). The first open congressional hearing in over fifty years was held in May 2022, followed by further hearings in July 2023 featuring testimony by former intelligence officer David Grusch. NASA convened an independent UAP study, releasing its public report on 14 September 2023. Mainstream scientific consensus continues to hold that no available evidence demonstrates an extraterrestrial origin for any specific case, while acknowledging that a residue of well-documented reports remains genuinely unexplained."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "'UFO' coined by Capt. Edward J. Ruppelt of the USAF in the early 1950s; 'UAP' adopted by the US government in the 21st century.",
+      "meaning": "UFO: unidentified flying object. UAP (post-2022): unidentified anomalous phenomena.",
+      "first_use": "'Flying saucer' (1947, after Arnold); 'UFO' (early 1950s, USAF); 'UAP' as 'unidentified aerial phenomena' (US Navy, late 2010s); 'UAP' as 'unidentified anomalous phenomena' (US Congress, 2022)."
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "|_UFO_UAP_|",
-      "type": "in Western encounters",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "UFO_UAP",
+      "type": "Aerial / transmedium / spaceborne anomaly",
+      "subtype": "Sighting reports and contact accounts",
+      "variant": "Modern (post-1947)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "alien-abduction", "name": "Alien abduction phenomenon", "relationship": "subset", "description": "Reports of alleged abduction by non-human intelligences" },
+      { "id": "men-in-black", "name": "Men in Black", "relationship": "related", "description": "UFO-adjacent folklore of mysterious harassers" },
+      { "id": "cattle-mutilation", "name": "Cattle mutilation", "relationship": "related", "description": "1970s-onward phenomenon often linked in popular literature to UFOs" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Saucer / disc forms", "description": "Disc-, ellipsoidal-, or saucer-shaped craft are the dominant form in early modern reports", "frequency": "common" },
+        { "feature": "Tic-Tac / capsule forms", "description": "Smooth white capsule-shaped objects, as in the 2004 USS Nimitz encounters", "frequency": "occasional" },
+        { "feature": "Triangular forms", "description": "Large dark triangular craft, especially in late-20th-century European and American reports", "frequency": "occasional" },
+        { "feature": "Spheres / orbs", "description": "Luminous spherical or orb-shaped objects, prominent in modern military pilot reports", "frequency": "common" }
+      ],
+      "morphology": "Reports describe a wide variety of geometric forms with low signature (no visible exhaust, control surfaces, or propulsion)."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Apparent extreme acceleration", "description": "Reports describe accelerations and speeds inconsistent with known propulsion", "frequency": "common", "evidence_level": "reported" },
+      { "ability": "Transmedium travel", "description": "Apparent transition between air and water without visible damage or signature", "frequency": "occasional", "evidence_level": "reported" },
+      { "ability": "Apparent low / silent signature", "description": "No visible exhaust, control surfaces, or audible signature in many close-range reports", "frequency": "common", "evidence_level": "reported" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "neutral",
+      "habitat_preference": ["military training airspace", "near nuclear facilities", "near major airports", "open ocean"],
+      "patterns": [
+        "Recurring reports near nuclear and military installations",
+        "Recurring reports from naval and military pilots in training airspace",
+        "Cluster events and 'flaps' in particular regions and periods"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Worldwide distribution of reports, with reporting density correlated with population, military activity, and the existence of national reporting channels.",
+      "continents": ["North America", "South America", "Europe", "Asia", "Africa", "Oceania", "Antarctica"],
+      "countries": ["United States", "Canada", "Mexico", "Brazil", "United Kingdom", "France", "Belgium", "Russia", "China", "Japan", "Australia"],
+      "regions": [
+        "American Southwest (New Mexico, Arizona, Nevada)",
+        "Pacific Northwest",
+        "Hessdalen, Norway",
+        "Belgian airspace (Belgian wave)",
+        "Brazilian Amazon and São Paulo state"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Roswell, New Mexico",
+        "location": {
+          "description": "Site of the 1947 'Roswell incident' (debris recovery)",
+          "country": "United States",
+          "region": "New Mexico",
+          "coordinates": { "latitude": 33.3943, "longitude": -104.5230 }
+        },
+        "peak_period": "1947",
+        "notes": "Debris later identified by the US Air Force as a Project Mogul balloon array."
+      },
+      {
+        "name": "USS Nimitz operating area, off San Diego",
+        "location": {
+          "description": "Pacific Ocean approximately 100 miles southwest of San Diego",
+          "country": "United States",
+          "region": "Pacific Ocean"
+        },
+        "peak_period": "2004",
+        "notes": "Site of the 14 November 2004 'Tic Tac' encounters by F/A-18F crews of the USS Nimitz Carrier Strike Group."
+      },
+      {
+        "name": "Hessdalen Valley",
+        "location": {
+          "description": "Hessdalen valley, central Norway, location of long-running luminous-phenomena research",
+          "country": "Norway",
+          "region": "Trøndelag",
+          "coordinates": { "latitude": 62.7833, "longitude": 11.2000 }
+        },
+        "peak_period": "1981–present",
+        "notes": "Documented since 1981; Project Hessdalen runs an instrumented automated observation station."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
-        "circa": true,
-        "source": "Traditional folklore"
-      }
+        "date": "1947-06-24",
+        "circa": false,
+        "source": "Kenneth Arnold sighting near Mount Rainier"
+      },
+      "peak_activity_periods": [
+        { "period": "1947–1969", "description": "Modern UFO era; US Air Force Project Sign / Grudge / Blue Book" },
+        { "period": "2017–present", "description": "UAP era: NYT disclosure (2017), UAP Task Force (2020), AARO (2022), congressional hearings (2022, 2023), NASA UAP report (2023)" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "While reports of strange aerial phenomena occur in earlier records, the modern UFO phenomenon is conventionally dated to the post-WWII period.",
+      "earliest_accounts": "1896–1897 'mystery airship' wave in the United States; 'foo fighters' reported by Allied and Axis pilots during WWII; 1946 'ghost rocket' reports over Scandinavia.",
+      "folklore_connections": "Continuous with longer traditions of unexplained aerial lights and contact narratives, but distinguished by the technological framing of the post-1947 era."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1947-06-24", "event": "Kenneth Arnold reports nine objects near Mount Rainier, Washington, giving rise to 'flying saucer'", "significance": "Conventional starting point of the modern UFO era", "source": "East Oregonian, June 1947; Wikipedia" },
+      { "date": "1947-07-08", "event": "Roswell Army Air Field issues a press release describing recovery of a 'flying disc'; retracted the following day as a weather balloon", "significance": "Origin of the Roswell incident", "source": "RAAF press release, 8 July 1947" },
+      { "date": "1948", "event": "US Air Force Project Sign begins", "significance": "First US government UFO investigation", "source": "USAF historical records" },
+      { "date": "1952-03", "event": "Project Blue Book is established", "significance": "Principal US Air Force UFO investigation 1952–1969", "source": "USAF historical records" },
+      { "date": "1969-01", "event": "Condon Committee Report (University of Colorado) is published", "significance": "Concludes UFO study has not contributed to scientific knowledge; basis for closure of Blue Book", "source": "Condon, E. U. (1969), Scientific Study of Unidentified Flying Objects" },
+      { "date": "1969-12-17", "event": "US Air Force formally terminates Project Blue Book", "significance": "End of formal US Air Force investigation", "source": "USAF announcement, December 1969" },
+      { "date": "2004-11-14", "event": "USS Nimitz Carrier Strike Group F/A-18F crews encounter the 'Tic Tac' UAP off San Diego", "significance": "Primary case of the modern UAP era", "source": "US Navy / Pentagon UAP Task Force documentation" },
+      { "date": "2017-12-16", "event": "The New York Times publishes 'Glowing Auras and Black Money', disclosing the Advanced Aviation Threat Identification Program (AATIP)", "significance": "Triggers the modern political and media UAP era", "source": "Cooper, Blumenthal & Kean, NYT, 16 December 2017" },
+      { "date": "2020-08-04", "event": "US Department of Defense establishes the UAP Task Force", "significance": "Formal US government UAP investigation re-established", "source": "DoD announcement, 4 August 2020" },
+      { "date": "2022-05-17", "event": "First open Congressional hearing on UAPs in more than 50 years, held by the House Intelligence Subcommittee on Counterterrorism", "significance": "Public political reframing of UAP investigation", "source": "US House of Representatives committee record" },
+      { "date": "2022-07", "event": "Congress establishes the All-domain Anomaly Resolution Office (AARO) in the National Defense Authorization Act for Fiscal Year 2022", "significance": "Successor to the UAP Task Force; broadens scope to transmedium and spaceborne phenomena", "source": "NDAA FY2022" },
+      { "date": "2023-07-26", "event": "House Oversight Subcommittee hearing featuring testimony by former intelligence officer David Grusch and Navy pilots Ryan Graves and David Fravor", "significance": "Highest-profile UAP testimony to date; remains contested", "source": "House Oversight Subcommittee transcript" },
+      { "date": "2023-09-14", "event": "NASA UAP Independent Study Team publishes its report", "significance": "First NASA-led public UAP report; finds no extraterrestrial origin in available data and recommends improved sensors", "source": "NASA UAP Independent Study Team Report (2023)" }
+    ],
+    "modern_era": "The post-2017 era is characterised by formal US government structures (UAP Task Force; AARO), declassified Navy infrared videos, congressional hearings, NASA involvement, and parallel work in France (GEIPAN), Chile, and elsewhere. Mainstream scientific posture is that no evidence demonstrates extraterrestrial origin for any specific case, while a residue of well-documented reports remains unexplained."
   },
+
   "sightings": {
-    "statistics": {
-      "total_documented": 0,
-      "verified": 0,
-      "disputed": 0,
-      "debunked": 0
-    },
-    "notable": [],
+    "notable": [
+      {
+        "id": "ufo-sighting-1947-arnold",
+        "name": "Kenneth Arnold, Mount Rainier",
+        "date": { "value": "1947-06-24", "precision": "exact" },
+        "location": {
+          "description": "Skies between Mount Rainier and Mount Adams, Cascade Range",
+          "country": "United States",
+          "region": "Washington",
+          "coordinates": { "latitude": 46.8523, "longitude": -121.7603, "precision": "approximate" }
+        },
+        "witnesses": { "count": 1, "types": ["Private pilot Kenneth Arnold"], "credibility_factors": ["Experienced pilot", "Detailed contemporaneous report"] },
+        "description": "While flying his CallAir A-2 from Chehalis to Yakima, Arnold reported seeing nine bright objects in formation flying past Mount Rainier at high speed. He compared their motion to 'a saucer skipped across water', a description that gave rise to 'flying saucer'.",
+        "credibility": { "rating": "medium", "factors": ["Experienced witness", "Cited as origin of 'flying saucer'"] },
+        "sources": ["Wikipedia: Kenneth Arnold UFO sighting"],
+        "featured": true
+      },
+      {
+        "id": "ufo-sighting-1947-roswell",
+        "name": "Roswell incident",
+        "date": { "value": "1947-07-08", "precision": "approximate" },
+        "location": {
+          "description": "Ranch land near Roswell Army Air Field",
+          "country": "United States",
+          "region": "New Mexico",
+          "coordinates": { "latitude": 33.3943, "longitude": -104.5230, "precision": "region" }
+        },
+        "description": "Debris recovered on the J.B. Foster ranch near Corona, New Mexico. The 8 July 1947 RAAF press release initially described the recovery of a 'flying disc'; the Air Force retracted within 24 hours, saying the object was a weather balloon. The 1994 and 1997 US Air Force reports identified the debris as components of a Project Mogul high-altitude balloon array.",
+        "credibility": { "rating": "low", "factors": ["1994/1997 USAF Project Mogul identification"], "notes": "Foundational case of UFO conspiracy literature." },
+        "sources": ["USAF, The Roswell Report (1994; 1997)"],
+        "featured": true
+      },
+      {
+        "id": "ufo-sighting-2004-nimitz-tic-tac",
+        "name": "USS Nimitz Tic Tac encounter",
+        "date": { "value": "2004-11-14", "precision": "exact" },
+        "location": {
+          "description": "Pacific Ocean approximately 100 nautical miles southwest of San Diego",
+          "country": "United States",
+          "region": "Pacific Ocean"
+        },
+        "witnesses": { "count": 4, "types": ["Cdr. David Fravor (USN)", "Lt. Cdr. Alex Dietrich (USN)", "USS Princeton radar operators"], "credibility_factors": ["Naval aviators", "Multiple radar tracks"] },
+        "description": "While on a training mission with the USS Nimitz Carrier Strike Group, F/A-18F Super Hornet crews from VFA-41 vectored toward radar contacts the cruiser USS Princeton had been tracking for days. Fravor and Dietrich each visually identified a smooth, white, capsule-shaped 'Tic Tac' object roughly 12 m long, with no wings or visible exhaust, performing high-acceleration manoeuvres over a churning patch of sea. A subsequent FLIR pod recording from another F/A-18F became the 'FLIR1' video.",
+        "credibility": { "rating": "high", "factors": ["Multiple military witnesses", "Radar and FLIR data"], "notes": "Centrepiece of the modern UAP investigations; included in the 2021 ODNI preliminary assessment." },
+        "sources": ["Cooper, Blumenthal & Kean, NYT, 16 December 2017", "ODNI Preliminary Assessment: UAP, 25 June 2021"],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
-    "video": [],
+    "video": [
+      {
+        "id": "ufo-evidence-flir1",
+        "type": "infrared video",
+        "name": "FLIR1 (USS Nimitz)",
+        "date": "2004-11-14",
+        "description": "Forward-Looking Infrared (FLIR) video from an F/A-18F Super Hornet of VFA-41 showing the 'Tic Tac' UAP off the USS Nimitz.",
+        "status": "verified",
+        "analysis": "Authenticated by the US Navy in 2019; declassified for public release by the DoD on 27 April 2020.",
+        "source": "US Department of Defense"
+      },
+      {
+        "id": "ufo-evidence-gimbal",
+        "type": "infrared video",
+        "name": "GIMBAL",
+        "date": "2015",
+        "description": "FLIR video from a US Navy F/A-18F off the US East Coast showing a rotating object against background clouds.",
+        "status": "verified",
+        "analysis": "Authenticated by the US Navy in 2019; declassified by the DoD on 27 April 2020.",
+        "source": "US Department of Defense"
+      },
+      {
+        "id": "ufo-evidence-gofast",
+        "type": "infrared video",
+        "name": "GoFast",
+        "date": "2015",
+        "description": "FLIR video from a US Navy F/A-18F off the US East Coast showing a small object skimming above the ocean.",
+        "status": "verified",
+        "analysis": "Authenticated by the US Navy in 2019; declassified by the DoD on 27 April 2020.",
+        "source": "US Department of Defense"
+      }
+    ],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "ufo-evidence-condon",
+        "type": "report",
+        "name": "Condon Report",
+        "date": "1969-01",
+        "description": "Final report of the University of Colorado UFO Project, contracted by the US Air Force.",
+        "status": "verified",
+        "analysis": "Concluded that further extensive UFO study was not justified on scientific grounds; basis for the termination of Project Blue Book.",
+        "source": "Condon, E. U. (1969)"
+      },
+      {
+        "id": "ufo-evidence-odni-2021",
+        "type": "report",
+        "name": "ODNI Preliminary Assessment: Unidentified Aerial Phenomena",
+        "date": "2021-06-25",
+        "description": "Office of the Director of National Intelligence assessment of 144 UAP reports gathered by the UAP Task Force.",
+        "status": "verified",
+        "source": "ODNI, 25 June 2021",
+        "url": "https://www.dni.gov/files/ODNI/documents/assessments/Prelimary-Assessment-UAP-20210625.pdf"
+      },
+      {
+        "id": "ufo-evidence-nasa-2023",
+        "type": "report",
+        "name": "NASA UAP Independent Study Team Report",
+        "date": "2023-09-14",
+        "description": "Public report of NASA's independent UAP study team.",
+        "status": "verified",
+        "source": "NASA, 14 September 2023",
+        "url": "https://science.nasa.gov/uap/"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "Extraterrestrial hypothesis (ETH)",
+        "description": "UAPs are or include craft of extraterrestrial origin.",
+        "proponents": ["J. Allen Hynek (later career)", "Stanton T. Friedman", "Jacques Vallée (early career)"],
+        "evidence_cited": ["High-performance flight characteristics", "Long history of pilot reports"]
+      },
+      {
+        "name": "Interdimensional / control system hypothesis",
+        "description": "UAPs and contact phenomena are manifestations of an intelligence operating across dimensions or as a long-running 'control system' shaping human belief.",
+        "proponents": ["John Keel", "Jacques Vallée (later career)"],
+        "evidence_cited": ["Continuity between UFO contact reports and historical folklore", "High strangeness narrative consistency"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Sensor and identification gaps",
+        "description": "A meaningful proportion of UAP reports represent the limits of current sensors and identification procedures rather than novel craft; a residue may reflect adversary technology not yet identified.",
+        "proponents": ["AARO", "NASA UAP Independent Study Team (2023)"],
+        "evidence_cited": ["Pattern of UAP signatures consistent with sensor artefacts", "Need for purpose-built sensors and reporting infrastructure"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Misidentification and human factors",
+        "description": "The vast majority of reports are explainable as misidentification of aircraft, balloons, satellites, atmospheric phenomena, optical illusions, and human perceptual factors.",
+        "proponents": ["Donald H. Menzel", "Philip J. Klass", "Edward U. Condon", "Mick West"],
+        "evidence_cited": ["Project Blue Book Special Report 14", "Condon Report (1969)", "Per-case analysis of well-known cases"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Mid-20th century US 'flying saucer' culture",
+        "Late-20th century alien-abduction narrative",
+        "21st century 'disclosure' political culture"
+      ],
+      "stories": [
+        "Kenneth Arnold sighting (1947)",
+        "Roswell incident (1947)",
+        "Betty and Barney Hill abduction account (1961)",
+        "Travis Walton account (1975)",
+        "USS Nimitz 'Tic Tac' encounters (2004)"
+      ],
+      "beliefs": "Public attitudes diverge sharply between the mainstream scientific community and a sustained popular and political interest in 'disclosure'."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "The Report on Unidentified Flying Objects — Edward J. Ruppelt (1956)",
+        "Passport to Magonia — Jacques Vallée (1969)",
+        "Communion — Whitley Strieber (1987)",
+        "American Cosmic — Diana Walsh Pasulka (2019)"
+      ],
+      "film_tv": [
+        "Close Encounters of the Third Kind (1977)",
+        "The X-Files (1993–2018)",
+        "Phenomenon (2024 docuseries)"
+      ],
       "games": [],
-      "other": []
+      "other": [
+        "Popular convention culture (e.g. International UFO Congress, Roswell UFO Festival)"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Edward J. Ruppelt", "affiliation": "US Air Force, Project Blue Book", "contribution": "Coined the term 'UFO'; first formal director of Project Blue Book", "period": "1951–1953" },
+      { "name": "J. Allen Hynek", "affiliation": "Northwestern University; USAF consultant", "contribution": "Scientific consultant to Sign / Grudge / Blue Book; later founded the Center for UFO Studies", "period": "1948–1986" },
+      { "name": "Jacques Vallée", "affiliation": "Independent (computer science / astrophysics)", "contribution": "Pioneer of comparative folkloric and information-theoretic approaches to UFO data", "period": "1960s–present" },
+      { "name": "Donald H. Menzel", "affiliation": "Harvard University (astronomy)", "contribution": "Foundational scientific skeptic of the UFO phenomenon", "period": "1950s–1970s" },
+      { "name": "Philip J. Klass", "affiliation": "Aviation Week & Space Technology", "contribution": "Long-running skeptical investigation of UFO cases", "period": "1960s–2000s" },
+      { "name": "David Grusch", "affiliation": "Former US Intelligence Community", "contribution": "Whistleblower testimony on alleged UAP retrieval programs (2023)", "period": "2023" }
+    ],
+    "organizations": [
+      { "name": "All-domain Anomaly Resolution Office (AARO)", "url": "https://www.aaro.mil", "focus": "US Department of Defense / Office of the Director of National Intelligence joint UAP investigation office" },
+      { "name": "GEIPAN", "url": "https://www.cnes-geipan.fr", "focus": "French CNES UAP study group" },
+      { "name": "Mutual UFO Network (MUFON)", "url": "https://mufon.com", "focus": "Civilian US-based UFO investigation organisation" },
+      { "name": "Project Hessdalen", "url": "https://hessdalen.org", "focus": "Long-running instrumented Norwegian luminous-phenomena observatory" }
+    ],
+    "ongoing_studies": "Active programmes include AARO (US), GEIPAN (France), the NASA UAP study office (post-2023), and instrumented observation efforts (Project Hessdalen; Galileo Project at Harvard)."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-uap", "type": "website", "title": "Unidentified anomalous phenomena", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Unidentified_anomalous_phenomena", "accessed": "2026-05-07" },
+    { "id": "wikipedia-arnold", "type": "website", "title": "Kenneth Arnold UFO sighting", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Kenneth_Arnold_UFO_sighting", "accessed": "2026-05-07" },
+    { "id": "nyt-2017", "type": "news", "title": "Glowing Auras and 'Black Money': The Pentagon's Mysterious U.F.O. Program", "authors": ["Helene Cooper", "Ralph Blumenthal", "Leslie Kean"], "publication": "The New York Times", "date": "2017-12-16", "url": "https://www.nytimes.com/2017/12/16/us/politics/pentagon-program-ufo-harry-reid.html", "accessed": "2026-05-07" },
+    { "id": "odni-2021", "type": "archive", "title": "Preliminary Assessment: Unidentified Aerial Phenomena", "publication": "Office of the Director of National Intelligence", "date": "2021-06-25", "url": "https://www.dni.gov/files/ODNI/documents/assessments/Prelimary-Assessment-UAP-20210625.pdf", "accessed": "2026-05-07" },
+    { "id": "nasa-uap-2023", "type": "archive", "title": "NASA UAP Independent Study Team Report", "publication": "NASA", "date": "2023-09-14", "url": "https://science.nasa.gov/uap/", "accessed": "2026-05-07" },
+    { "id": "condon-1969", "type": "book", "title": "Scientific Study of Unidentified Flying Objects", "authors": ["Edward U. Condon"], "publication": "Bantam Books / University of Colorado", "date": "1969" },
+    { "id": "ruppelt-1956", "type": "book", "title": "The Report on Unidentified Flying Objects", "authors": ["Edward J. Ruppelt"], "publication": "Doubleday", "date": "1956" },
+    { "id": "vallee-1969", "type": "book", "title": "Passport to Magonia: From Folklore to Flying Saucers", "authors": ["Jacques Vallée"], "publication": "Henry Regnery", "date": "1969" }
+  ]
 }
